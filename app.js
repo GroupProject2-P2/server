@@ -14,6 +14,8 @@ app.use(express.urlencoded({extended:false}))
 let joinUsers = []
 let question
 let first = false
+let winner = []
+let gameOver = false
 
 io.on('connection', (socket) => {
   console.log('a user connected')
@@ -45,6 +47,7 @@ io.on('connection', (socket) => {
           if (payload[i].username === joinUsers[j].username) {
             joinUsers[j].score += 8
             first = true
+            if (joinUsers[j].score >= 50) gameOver = true
             break
           }
         }
@@ -52,6 +55,7 @@ io.on('connection', (socket) => {
         for (let k = 0; k < joinUsers.length; k++) {
           if (payload[i].username === joinUsers[k].username) {
             joinUsers[k].score += 5
+            if (joinUsers[k].score >= 50) gameOver = true
             break
           }
         }
@@ -63,6 +67,27 @@ io.on('connection', (socket) => {
           }
         }
       }
+    }
+    if (gameOver) {
+      function compare(b, a) {
+        const userA = a.score
+        const userB = b.score
+      
+        let comparison = 0;
+        if (userA > userB) {
+          comparison = 1;
+        } else if (userA < userB) {
+          comparison = -1;
+        }
+        return comparison;
+      }
+      
+      joinUsers.sort(compare)
+      winner.push(joinUsers[0])
+      io.emit('gameResult', winner)
+      joinUsers = []
+      winner = []
+      gameOver = false
     }
     first = false
     io.emit('result', joinUsers)

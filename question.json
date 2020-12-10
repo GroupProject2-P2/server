@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Ibu Kota Jawa Timur adalah Surabaya",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "Penemu Lampu adalah Thomas Alva Edison",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape di bawah nama Java",
+    "answer": "Salah",
+    "explain": "yang benar nama awalnya Mocha"
+  },
+  {
+    "question": "Singkatan HTML adalah Hypertext Marking Language",
+    "answer": "Salah",
+    "explain": "Hypertext Markup Language bukan 'Marking'"
+  },
+  {
+    "question": "Becak (betjak) juga berasal dari Tiongkok, bee (kuda) dan tja (gerobak) ",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "Steeve Jobs adalah Orang Terkaya saat ini di Dunia",
+    "answer": "salah",
+    "explain": "Bezos lah orang terkaya, $150Milyar Cuy duitnya"
+  },
+  {
+    "question": "Apakah matahari mencapai temperatur tertinggi pada siang hari ?",
+    "answer": "salah",
+    "explain": "Temperatur matahari sama saja baik malam hari maupun siang hari"
+  },
+  {
+    "question": "Apakah kentut bisa mempercepat peningkatan suhu bumi ?",
+    "answer": "Benar",
+    "explain": "Gas metana menyumbang 5% dari emisi gas rumah kaca yang kebanyakan berasal dari kentut hewan ternak"
+  },
+  {
+    "question": "Apakah kentut bisa mempercepat pemanasan global ?",
+    "answer": "Benar",
+    "explain": "Gas metana menyumbang 5% dari emisi gas rumah kaca yang kebanyakan berasal dari kentut hewan ternak"
+  },
+  {
+    "question": "Apakah Indonesia adalah satu-satunya republik yang pernah ada di daerah yang sekarang menjadi indonesia ?",
+    "answer": "salah",
+    "explain": "Rebulik Lanfang adalah sebuah republik yang berada di Kalimantan Barat sebelum dibubarkan oleh Belanda pada tahun 1884"
+  },
+  {
+    "question": "Apakah ukuran alam semesta tetap atau konstan ?",
+    "answer": "Salah",
+    "explain": "Alam semesta berkembang bagaikan bagaikan sebuah balon yang ditiup"
+  },
+  {
+    "question": "Sebelum isu perpindahan ibu kota Negara Indonesia ke Kutai, apakah Indonesia tidak pernah mengganti ibu kota Negaranya  ?",
+    "answer": "Salah",
+    "explain": "Sejak kemerdekaan Indonesia pada tanggal 17 Agustus, tercatat sudah 3 kota yang pernah menjadi ibu kota negara , yaitu Jakarta,Yogyakarta dan Bukittinggi"
+  },
+  {
+    "question": "Apakah orang yang menjabat sebegai presiden sebelum Soeharto HANYA Soekarno ?",
+    "answer": "Salah",
+    "explain": "Sebelum Soeharto menjabat sebagai presiden pada tahun 1966 terdapat 2 orang yang pernah menjabat sebagai presiden selain Soekarno yaiut Mr Assaat yang menjabat selama 9 bulan dan Syafruddin Prawiranegara yang menjadi presiden saat Soekarno di asingkan oleh Belanda"
+  }
+]

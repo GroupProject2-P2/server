@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Ibu Kota Jawa Timur adalah Surabaya",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "Penemu Lampu adalah Thomas Alva Edison",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape di bawah nama Java",
+    "answer": "Salah",
+    "explain": "yang benar nama awalnya Mocha"
+  },
+  {
+    "question": "Singkatan HTML adalah Hypertext Marking Language",
+    "answer": "Salah",
+    "explain": "Hypertext Markup Language bukan 'Marking'"
+  },
+  {
+    "question": "Becak (betjak) juga berasal dari Tiongkok, bee (kuda) dan tja (gerobak) ",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "Steve Jobs adalah Orang Terkaya saat ini di Dunia",
+    "answer": "salah",
+    "explain": "Bezos lah orang terkaya, $150Milyar Cuy duitnya"
+  }
+]

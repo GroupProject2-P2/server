@@ -27,6 +27,7 @@ io.on('connection', (socket) => {
       username: payload,
       score: 0
     })
+    console.log(joinUsers)
     io.emit('login', joinUsers)
   })
   
@@ -35,11 +36,11 @@ io.on('connection', (socket) => {
     for (let i = 0; i < listQuestion.length; i++) {
       question = listQuestion[rand] 
     }
-    // console.log(question)
     io.emit('questions', question);
   })
 
   socket.on('result', (payload) => {  //answers
+    console.log(payload)
     let correct = question.answer
     for (let i = 0; i < payload.length; i++) {
       if (payload[i].answer === correct && first === false) {

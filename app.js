@@ -61,7 +61,7 @@ io.on('connection', (socket) => {
       if (joinUsers[i].username === username) {
         joinUsers[i].score += 10
         joinUsers[i].benar++
-        if (joinUsers[i].score >= 100) {
+        if (joinUsers[i].score >= 50) {
           io.emit('moveToResult', joinUsers[i].username)
           joinUsers = []
         }

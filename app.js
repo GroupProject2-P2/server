@@ -20,7 +20,7 @@ let gameOver = false
 io.on('connection', (socket) => {
   console.log('a user connected')
 
-  socket.emit("welcomeMessage", "Hello, welcome to guess is correct or wrong! Please fill the username first") 
+  socket.emit("welcomeMessage", "Please Fill In Your Username") 
 
   socket.on('login', (payload) => {
     joinUsers.push({
@@ -31,7 +31,7 @@ io.on('connection', (socket) => {
   })
   
   socket.on('questions', (payload) => {
-    const rand = Math.round(Math.random()*listQuestion.length)
+    const rand = Math.floor(Math.random()*listQuestion.length)
     for (let i = 0; i < listQuestion.length; i++) {
       question = listQuestion[rand] 
     }

@@ -25,7 +25,6 @@ io.on('connection', (socket) => {
   socket.on('login', (payload) => {
     joinUsers.push({
       username: payload,
-      status: 'ready'
       score: 0
     })
     io.emit('login', joinUsers)

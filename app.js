@@ -1,8 +1,7 @@
 const cors = require('cors')
 const express = require('express')
-const { join } = require('path')
 const app = express()
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const listQuestion = require('./question.json')

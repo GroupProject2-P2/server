@@ -46,7 +46,7 @@
   },
   {
     "question": "Apakah Indonesia adalah satu-satunya republik yang pernah ada di daerah yang sekarang menjadi indonesia ?",
-    "answer": "salah",
+    "answer": "Salah",
     "explain": "Rebulik Lanfang adalah sebuah republik yang berada di Kalimantan Barat sebelum dibubarkan oleh Belanda pada tahun 1884"
   },
   {
@@ -70,11 +70,6 @@
     "explain": "Indonesia pernah keluar dari PBB pada tanggal 1 Januari 1965"
   },
   {
-    "question": "Apakah Indonesia pernah keluar dari keanggotaan PBB ?",
-    "answer": "Benar",
-    "explain": "Indonesia pernah keluar dari PBB pada tanggal 1 Januari 1965"
-  },
-  {
     "question": "Apakah titik didih air berada pada 100 derajat celcius ?",
     "answer": "Benar",
     "explain": "titik didih air adalah 100 derajar celcius"
@@ -90,12 +85,84 @@
     "explain": "Bintang adalah benda langit yang bisa memancarkan cahaya, dan matahari merupakan salah satu bintang yang ada di alam semesta"
   },  {
     "question": "Apakah Papua sudah bergabung dengan Indonesia pada tahun 1945 ?",
-    "answer": "salah",
+    "answer": "Salah",
     "explain": "papua bergabung dengan Indonesia padah 1 Mei 1965"
   },
   {
     "question": "Apakah semua daerah yang ada di Indonesia saat ini merupakan bekas kekuasaan Hindia-Belanda  ?",
     "answer": "Salah",
     "explain": "Buton adalah satu-satunya wilayah Indonesia yang tak pernah dijajah oleh Belanda"
+  },
+  {
+    "question": "Apakah Makassar merupakan ibu kota provinsi Sulawesi Selatan?",
+    "answer": "Benar",
+    "explain": ""
+  },
+  {
+    "question": "Apakah galaksi bima sakti adalah satu satunya galaksi yang ada di alam semesta ?",
+    "answer": "Salah",
+    "explain": "banyak cuy alam semesta itu luas"
+  },
+  {
+    "question": "12 pangkat 2 = 144?",
+    "answer": "Benar",
+    "explain": "coba hitung sendiri"
+  },
+  {
+    "question": "Apakah benar manusia pernah berpikir bumi merupakan pusat alam semesta dan berbentuk datar?",
+    "answer": "Benar",
+    "explain": "Sampai sekarang masih banyak yang berpikiran begitu cuy"
+  },
+  {
+    "question": "Apakah paus merupakan ikan?",
+    "answer": "Salah",
+    "explain": "Paus merupakan hewan mamalia bukan ikan"
+  },
+  {
+    "question": "warna bendera jepang adalah merah putih?",
+    "answer": "Benar",
+    "explain": "warnanya yah merah putih tapi bentuknya beda dengan bendera Indonesia"
+  },
+  {
+    "question": "Kampala merupakan ibu kota Zimbabwe?",
+    "answer": "Salah",
+    "explain": "Kampala ibu kota dari Uganda"
+  },
+  {
+    "question": "Catalunya adalah negara pecahan spanyol?",
+    "answer": "Salah",
+    "explain": "Catalunya belum jadi negara"
+  },
+  {
+    "question": "Barcelona adalah club terbaik di dunia?",
+    "answer": "Benar",
+    "explain": "benar bagi para cules"
+  },
+  {
+    "question": "Real Madrid adalah club terburuk di dunia?",
+    "answer": "Benar",
+    "explain": "Benar bagi para cules"
+  },
+  {
+    "question": "Hacktiv8 adalah bootcamp terbaik di Indonesia?",
+    "answer": "Benar",
+    "explain": "Benar, no debat"
+  },
+  {
+    "question": "!7 Agustus 1945 adalah hari kemerdekaan Indonesia?",
+    "answer": "Salah",
+    "explain": "Yang benar 17 Agustus 1945, fokus dongg"
+  },
+  {
+    "question": "1+1 =2?",
+    "answer": "Benar",
+    "explain": "Benar dong"
+  },
+  {
+    "question": "Avatar adalah pengendali 4 elemen?",
+    "answer": "Benar",
+    "explain": "Benar dong"
   }
+
+    
 ]
